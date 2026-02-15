@@ -89,7 +89,7 @@ export default function Booking() {
               </h3>
             </div>
             <p className="text-neutral-600 mb-6 leading-relaxed">
-              Prefer to reach out via email? Fill out the form below and I'll get back to you within 24-48 hours.
+              Prefer to reach out via email? Fill out the form below and I&apos;ll get back to you within 24-48 hours.
             </p>
             <form onSubmit={handleSubmit} className="space-y-4">
               <div>
@@ -177,7 +177,7 @@ export default function Booking() {
               </button>
               {submitted && (
                 <p className="text-green-600 text-center font-semibold">
-                  Thank you! Your message has been sent. I'll get back to you soon.
+                  Thank you! Your message has been sent. I&apos;ll get back to you soon.
                 </p>
               )}
             </form>
