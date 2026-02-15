@@ -8,6 +8,8 @@ import ThoughtLeadership from '@/components/sections/ThoughtLeadership'
 import Booking from '@/components/sections/Booking'
 import Footer from '@/components/sections/Footer'
 
+export const dynamic = 'force-dynamic'
+
 export default function Home() {
   return (
     <main className="min-h-screen">
