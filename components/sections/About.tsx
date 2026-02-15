@@ -18,18 +18,18 @@ export default function About() {
             <p>
               My journey into life coaching and spiritual guidance began over a decade ago, 
               when I discovered the profound impact that clarity, purpose, and inner alignment 
-              can have on one&apos;s life. What started as a personal quest for meaning evolved into 
+              can have on life. What started as a personal quest for meaning evolved into 
               a passionate mission to help others unlock their true potential.
             </p>
             <p>
-              Through years of dedicated study, certification, and practice, I&apos;ve developed a 
+              Through years of dedicated study, certification, and practice, I have developed a 
               unique approach that seamlessly blends corporate professionalism with intuitive 
               spiritual wisdom. This synthesis allows me to serve clients who seek both practical 
               transformation strategies and deeper spiritual understanding.
             </p>
             <p>
-              Today, I&apos;m honored to guide hundreds of individuals and organizations toward 
-              greater clarity, purpose, and fulfillment—helping them navigate life&apos;s challenges 
+              Today, I am honored to guide hundreds of individuals and organizations toward 
+              greater clarity, purpose, and fulfillment—helping them navigate life & challenges 
               with confidence and grace.
             </p>
           </div>
