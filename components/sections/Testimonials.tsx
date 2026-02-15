@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import Image from 'next/image'
 import { FaStar, FaQuoteLeft, FaChevronLeft, FaChevronRight } from 'react-icons/fa'
 
 const testimonials = [
@@ -73,7 +74,7 @@ export default function Testimonials() {
             Client <span className="gradient-text">Testimonials</span>
           </h2>
           <p className="text-xl text-neutral-600 max-w-3xl mx-auto">
-            Real stories of transformation from clients who've worked with Gunjan
+            Real stories of transformation from clients who&apos;ve worked with Gunjan
           </p>
         </div>
 
@@ -88,12 +89,14 @@ export default function Testimonials() {
               </div>
               <FaQuoteLeft className="text-primary-200 text-3xl mb-4" />
               <p className="text-neutral-700 leading-relaxed mb-6 italic">
-                "{testimonial.text}"
+                &ldquo;{testimonial.text}&rdquo;
               </p>
               <div className="flex items-center gap-4 pt-4 border-t border-neutral-200">
-                <img
+                <Image
                   src={testimonial.image}
                   alt={testimonial.name}
+                  width={48}
+                  height={48}
                   className="w-12 h-12 rounded-full object-cover"
                 />
                 <div>
@@ -117,12 +120,14 @@ export default function Testimonials() {
             </div>
             <FaQuoteLeft className="text-primary-200 text-3xl mb-4" />
             <p className="text-neutral-700 leading-relaxed mb-6 italic text-lg">
-              "{testimonials[currentIndex].text}"
+              &ldquo;{testimonials[currentIndex].text}&rdquo;
             </p>
             <div className="flex items-center gap-4 pt-4 border-t border-neutral-200">
-              <img
+              <Image
                 src={testimonials[currentIndex].image}
                 alt={testimonials[currentIndex].name}
+                width={64}
+                height={64}
                 className="w-16 h-16 rounded-full object-cover"
               />
               <div>

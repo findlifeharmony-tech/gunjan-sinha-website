@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import Image from 'next/image'
 import { FaArrowRight, FaChevronDown } from 'react-icons/fa'
 
 export default function Hero() {
@@ -33,10 +34,13 @@ export default function Hero() {
             <div className="relative inline-block">
               <div className="absolute inset-0 bg-gradient-to-r from-primary-400 to-accent-400 rounded-full blur-2xl opacity-50"></div>
               <div className="relative bg-white p-2 rounded-full shadow-2xl">
-                <img
+                <Image
                   src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=500&h=500&fit=crop&crop=face"
                   alt="Gunjan Sinha - Certified Life Coach, Tarot Reader & Numerologist"
+                  width={320}
+                  height={320}
                   className="w-80 h-80 rounded-full object-cover border-8 border-white shadow-xl"
+                  priority
                 />
               </div>
             </div>

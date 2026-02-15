@@ -2,6 +2,7 @@
 
 import { FaArrowRight, FaDownload, FaBook, FaHeadphones } from 'react-icons/fa'
 import { useState } from 'react'
+import Image from 'next/image'
 
 const blogPosts = [
   {
@@ -88,9 +89,11 @@ export default function ThoughtLeadership() {
             {blogPosts.map((post, index) => (
               <article key={index} className="card group cursor-pointer hover:scale-105 transition-transform duration-300">
                 <div className="relative h-48 mb-6 rounded-lg overflow-hidden">
-                  <img
+                  <Image
                     src={post.image}
                     alt={post.title}
+                    width={600}
+                    height={400}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute top-4 left-4 bg-primary-600 text-white px-3 py-1 rounded-full text-sm font-semibold">

@@ -36,9 +36,11 @@ export default function About() {
 
           <div className="relative">
             <div className="relative aspect-square rounded-2xl overflow-hidden shadow-2xl">
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=600&fit=crop"
                 alt="Gunjan Sinha in a professional setting"
+                width={600}
+                height={600}
                 className="w-full h-full object-cover"
               />
             </div>
